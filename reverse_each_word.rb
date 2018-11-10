@@ -13,6 +13,7 @@
    new_array = []
    string.collect do |string|
      new_array << string.reverse
+     binding.pry
    end
    new_array.join(" ")
  end
